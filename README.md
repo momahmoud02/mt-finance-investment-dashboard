@@ -52,7 +52,7 @@ mt-finance-investment-dashboard/
 
 ## Data notes
 
-- The survey is an educational sample and is not a statistically representative study.
+- The survey is a small illustrative sample and is not a statistically representative study.
 - The project name is independent; it is not affiliated with any financial institution.
 - No personally identifying information is included in the dataset.
 
