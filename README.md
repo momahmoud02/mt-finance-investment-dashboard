@@ -2,6 +2,8 @@
 
 A Power BI dashboard that turns a 40-response investor survey into a clear view of what people invest in, why, for how long, and through which channel.
 
+![MT Finance investment dashboard](assets/dashboard.png)
+
 ## Overview
 
 | Item | Detail |
@@ -13,14 +15,14 @@ A Power BI dashboard that turns a 40-response investor survey into a clear view 
 
 ## What the dashboard shows
 
-- **Participants by investment type** - how the sample splits across mutual funds, equity, debentures, government bonds, fixed deposits, PPF, and gold.
-- **Participants by objective** - capital appreciation, wealth creation, and related goals.
-- **Participants by duration** - short, medium, and long holding preferences.
-- **Investment channels distribution** - where participants place their money.
-- **Survey detail table** - row-level responses for follow-up analysis.
-- **HTML summary cards** - context and definitions kept visually consistent with the charts.
+- **Summary cards** - total participants, active investors, stock trading participation, and expected return.
+- **Participants by investment type** - mutual funds, equity, fixed deposits, and public provident fund.
+- **Participants by objective** - capital appreciation, growth, and income.
+- **Participants by duration** - less than 1 year, 1-3 years, 3-5 years, and more than 5 years.
+- **Investment channels distribution** - treemap of how the sample allocates across avenues.
+- **Avenue summary table** - participants and share for each investment avenue.
 
-Four slicers let the viewer isolate a segment and have every visual respond at once.
+Four slicers (gender, status, objective, stock market) let the viewer isolate a segment and have every visual respond at once.
 
 ## Dataset
 
@@ -38,6 +40,8 @@ Four slicers let the viewer isolate a segment and have every visual respond at o
 ```text
 mt-finance-investment-dashboard/
 |-- MT_Finance_Investment_Dashboard.pbix
+|-- assets/
+|   `-- dashboard.png
 |-- data/
 |   |-- Finance_data.csv
 |   `-- Original_data.csv
